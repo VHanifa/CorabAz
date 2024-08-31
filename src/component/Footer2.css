@@ -1,0 +1,8 @@
+.bg-warning{background-color: #fcb900;}
+@media  only screen and (max-width: 767px){
+    .footer2 {
+        padding: 0 20px;
+        align-items: center;
+        justify-content: center;
+    }
+}

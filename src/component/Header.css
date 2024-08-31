@@ -1,0 +1,269 @@
+.menu-icon {
+    margin-right: 10px;
+  }
+  .icon {font-size: 16px; cursor: pointer;}
+  .brank {line-height: 1em;}
+  .go {
+    text-transform: uppercase;
+    line-height: 1.2em;
+    font-size: 10px;
+    color: white;
+  }
+  .onemli {
+    z-index: 20!important;
+  }
+  .flexim{
+    display: flex!important;
+    justify-content: space-between;
+    align-items: center;
+    /* max-width: 1280px; */
+}
+
+ol, ul {margin: 0 !important;}
+.btn-primary{
+  background: transparent !important;
+  border: none !important;
+}
+.containerPerson {
+  max-width: 63%;
+  margin: 0 auto;
+}
+.btn-primary:hover{
+  background-color: white;
+}
+.btn-primary{
+  background-color: white;
+}
+.btn-primary:active{
+  background-color: white !important;
+}
+.bar{
+  color: black;
+}
+/* .corabb{
+    min-width: 300px;
+    width: 30%;
+} */
+.logos, .soltaraf {
+  display: none;
+}
+.logo {
+  /* min-width: 40px!important; */
+  max-width: 250px;
+}
+
+.boxs{ padding-top: 10px;}
+.qutu{
+    text-transform: uppercase; 
+    font-weight: 700; 
+    list-style: none; 
+    font-size: 12px;  
+    display: flex; 
+    gap: 25px;
+    padding: 5px;
+}
+.boxs > li:hover {color: #fcb900;}
+.boxs > Link {
+  text-decoration: none;
+  color: black;
+}
+.offcanvas-header, .offcanvas-body {
+  padding: 0!important;
+}
+.hr{ 
+  display: block;
+  height: .5px !important;
+  background-color: #ccc;
+  margin: 0 0 5px 0;
+}
+.show {
+  display: initial;
+}
+.notshow {
+  display: none;
+}
+.btn-close {margin-top: 20px 0 0 0 !important;}
+.sifaris {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.qutu li:hover{
+    color: #fcb900; 
+    cursor: pointer;
+}
+.foto {
+    max-width: 90%;
+    max-height: 150%;
+}
+.qutu2 {
+    padding: 0!important;
+    font-size: 12px;
+    list-style: none;
+    color: #ccc;
+    display: flex;
+    justify-content: end;
+    
+    li {
+        padding: 0 13px;
+    }
+
+}
+.left {
+  visibility: hidden;
+  opacity: 0;
+}
+.right {
+  visibility: visible;
+  opacity: 1;
+}
+.show {
+  overflow: initial;
+} 
+.notShow {
+  overflow: hidden;
+} 
+.qutu2 li:hover{
+    color: #fcb900; 
+    cursor: pointer;
+}
+.bag{position: relative;}
+.sebet{
+    width: 61px;
+    height: 61px;
+    border: 1px solid #ccc;
+    padding: 7px 9px 5px;
+    cursor: pointer;
+}
+.sebet2 {
+  width: 70px;
+  height: 70px;
+}
+.bosdur{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+.dolu {
+    background-color: #fcb900;
+    color: white;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    top: -10px;
+    padding: 2px;
+    right: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    /* font-weight: 700; */
+}
+.header-top{
+  display: none;
+}
+@media  only screen and (max-width: 1104px) {
+  .containerPerson {
+    width: 83%;
+  }
+}
+@media  only screen and (max-width: 856px) {
+  .containerPerson {
+    width: 100%;
+  }
+}
+
+  @media  only screen and (max-width: 767px) {
+    .navbar-collapse.show {
+      display: block !important;
+    }
+    .navbar-collapse {
+      text-align: center;
+      background-color: #343a40 !important;
+      padding: 15px; 
+    }
+  
+    .navbar-nav {
+      display: inline-block; 
+    }
+    .hr {display: "none";}
+    .nav-link {
+      display: block; 
+      margin-bottom: 10px; 
+    }
+    .qutu, .qutu2 {
+      flex-direction: column;
+    }
+    .qutu2 li { padding: 15px 0 0 0;  }
+    .qutu {padding: none;}
+    .sifaris{
+      border-left: none;
+      border-right: none;
+    }
+    .corabb{
+      max-width: 100%;
+      max-height: 60px;
+      padding: 10px 0;
+      width: auto;
+    }
+    .offcanvas{
+      width: 82% !important;
+      padding: 0 30px 30px;
+    }
+   .boxs2 {
+    padding: 25px 0;
+   } 
+   .header-top{
+      display: block;
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding: 8px;
+      font-size: 11px;
+      text-transform: uppercase;
+  }
+  
+   .mpbmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+      
+      img {
+        width: 160px;
+      }
+   }
+.soltaraf {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+  
+}
+.sebetright {
+  position: relative;
+
+  p {
+    top: 0;
+    left: 7px;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-color: #fcb900;
+    /* padding: 5px 0; */
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 10px;
+
+  }
+}
+.logos{
+  width: 40px;
+  display: flex;
+  padding: 0 10px;
+}
+.sebet2, .search{
+  width: 20px;
+  height: 20px;
+}
+  }
+  

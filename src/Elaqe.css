@@ -1,0 +1,16 @@
+.elaqe2{
+    display: flex;
+    padding: 30px 0;
+}
+@media only screen and  (max-width: 767px) {
+    .dest > p {
+        padding: 10px 10px;
+    }
+    .elaqe2 {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 10px 10px;
+    }
+    
+}

@@ -1,0 +1,19 @@
+.sual {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 60px 0;
+}
+.melumat{width: 100%;}
+@media only screen and  (max-width: 767px) {
+    .sual{
+        font-size: 39px;
+        padding: none;
+    }
+    .corab3{padding: 0 15px;}
+    .melumat{
+        display: block;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .mehsul, .mehsul2, .meshul3, .issaat  {max-width: 100%;}
+}

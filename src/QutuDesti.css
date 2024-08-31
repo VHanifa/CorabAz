@@ -1,0 +1,21 @@
+.qutular{
+    width: 100%; 
+}
+.dest{font-weight: 700;}
+.socks {
+    align-items: center;
+}
+@media only screen and  (max-width: 767px) {
+   .dest > p {font-size: 33px;} 
+   .socks{ 
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+   }
+   .topp{
+    width: 50%;
+   }
+   .text{font-size: 19px;}
+   .price{font-size: 19px;}
+}

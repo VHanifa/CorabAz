@@ -1,0 +1,82 @@
+.video  {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.video iframe {
+    width: 70%;
+    height: 475px;
+}
+.video > h3 {
+  font-weight: 700;
+  padding: 30px;
+}
+.video > p {
+    font-size: 16px;
+}
+.video2{
+    /* background-color: red; */
+    width: 330px;
+    padding: 0 30px;
+}
+.corab3 {
+    padding: 35px;
+}
+.video3 > img {
+    width: 500px;
+    height: 500px;
+}
+.dizayn {
+    display: flex;
+}
+.video4 > img {
+    width: 350px;
+}
+.corab4  {
+    padding: 10%;
+}
+.caption{
+    font-size: 13px;
+    text-align: center;
+}
+.dizayn1 {
+    display: flex;
+    padding: 30px;
+}
+.haqqimizda {
+    max-width: 980px;
+       margin: auto;
+
+   }
+@media only screen and  (max-width: 786px){
+    .video, .dizayn, .dizayn1 {
+        display: block;
+        flex-wrap: wrap;
+    }
+    .video2,.corab3 {
+        padding: 26px;
+        width: 100%;
+    }
+    .video2 { padding: 0 15px;}
+    .video2 > h3 {
+        font-size: 33px;
+    }
+    .corab3 >h3 {
+        font-size: 33px;
+    }
+    .video iframe {
+        width: 100%!important;
+    }
+    .haqqimizda {
+      width: 95%;
+    }
+    .video iframe {
+        height: 50vh;
+    }
+    .video4 > img{
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+
+}

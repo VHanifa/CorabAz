@@ -1,0 +1,66 @@
+.input{
+    background-color: #fcb900;
+    border: none;
+    padding: 25px 30px;
+    margin: 0 0 30px;
+}
+.izleM{
+    display: flex;
+    justify-content: center; 
+    flex-direction:column;
+}
+.sifarler{
+    font-size: 60px;
+}
+.inputs  {
+    display: flex;
+    flex-wrap: wrap;                                                 
+    justify-content: center;
+    gap: 20px;
+}
+.inputs > div {
+    flex-grow: 1;
+}
+.inputs p{
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0 0 5px;
+}
+.inputs input{
+    padding: 4px 9px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    width: 100%;
+}
+.izle{
+    width: 87px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-color: black;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+.izle:hover{
+    background-color: #fcb900;
+    transition: all .3s ease;
+}
+.form {
+    background-color: #fcb900;
+    color: white;
+}
+.form > p {
+    padding:  25px 30px;
+    margin: 0 0 30px;
+    font-size: 13px;
+}
+@media only screen and  (max-width: 1140px) {
+    .izleMain{
+        margin: auto;
+        width: 80% ;
+    }
+    .input > div {
+        flex-direction: column;
+    }
+}

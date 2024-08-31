@@ -1,0 +1,8 @@
+.top {
+    width: 100%;
+}
+.text{
+    font-size: 14px;
+    line-clamp: 2;
+}
+.price{ font-weight: 700;}

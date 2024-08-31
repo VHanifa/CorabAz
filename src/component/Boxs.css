@@ -1,0 +1,8 @@
+.img {
+    width: 180%;
+}
+.text{
+    font-size: 14px;
+    line-clamp: 2;
+}
+.price{ font-weight: 700;}

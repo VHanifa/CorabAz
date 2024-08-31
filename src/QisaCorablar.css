@@ -1,0 +1,21 @@
+.qisacorab > .qisa {
+    font-size: 62px;
+    font-weight: 700;
+    color: white;
+}
+.qisacorab{
+    height: 57vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: url('../src/img/qisa-corab-slider.jpg') center/cover;
+}
+.toppp{width: 100%;}
+@media only screen and  (max-width: 719px) {
+    /* .qisacorab{
+        height: 267px;
+    } */
+    .qisacorab > .qisa{
+        font-size: 38px;
+    }
+}
